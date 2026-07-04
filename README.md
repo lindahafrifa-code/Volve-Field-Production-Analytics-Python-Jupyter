@@ -1,4 +1,3 @@
-# Volve-production-analytics
 # Volve Field — Production Data Analytics
 
 **Production analysis of Equinor's Volve field (North Sea, 2008–2016), built as a staged analytics pipeline: Python for data cleaning and KPI engineering, Excel for the stakeholder dashboard. SQL extraction layer and Power BI in progress.**

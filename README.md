@@ -4,7 +4,7 @@ Volve was a small oil field in the North Sea. It produced from sandstones of the
 
 It started producing in 2008, was expected to last 3-5 years, and ran for 8. It shut down in 2016.
 
-In 2018 Equinor and partners released all of its data to the public , every well, every day, for the whole life of the field.
+In 2018 Equinor and partners released all of its 40,000 data files to the public , every well, every day, for the whole life of the field.
 
 This project takes that data from databricks and asks one question: **can you work out what happened to a field, and why, using only its production records?**
 

@@ -191,17 +191,18 @@ Downloaded from Databricks and Used here to learn ONLY.
 ---
 
 ## Tools
-Python
-Pandas
-NumPy
-Matplotlib
-Jupyter Notebook
-Excel
-SQL (ongoing)
-Power BI (ongoing)
+•	Python
+•	Pandas
+•	NumPy
+•	Matplotlib
+•	Jupyter Notebook
+•	Excel
+•	SQL (ongoing)
+•	Power BI (ongoing)
 
 ------
 
+**Contributions and comments are welcome**
 
 **Linda Afrifa** · MSc Petroleum Geosciences, NTNU · [LinkedIn](https://www.linkedin.com/in/linda-afrifa)
 

@@ -65,9 +65,8 @@ can be explored to understand well performance, identify production trends, and 
 This repo is a staged build. Remaining stages, in order:
 
 1. **SQL extraction layer** *(in progress)*: the same aggregations (production by well, monthly summaries, well rankings) written as queries against the raw data, completing the extract → analyse → communicate pipeline
-2. **Diagnosis notebook 3** the interpretation layer: approximate VRR (with formation-volume-factor (Bo) assumptions stated), water cut vs downhole pressure, and oil rate vs choke size to separate reservoir-driven decline from operational choking
-3. **Power BI dashboard** : Interactive stakeholder view.
-4. **Connectivity study** : NPD states that communication across faults in the heavily faulted western part of the structure is uncertain. Injector–producer pressure response is a data-driven way to investigate that connectivity question.
+2. **Power BI dashboard** : Interactive stakeholder view.
+3.  **Connectivity study** : Injector–producer pressure response is a data-driven way to investigate that connectivity question. NPD states that communication across faults in the heavily faulted western part of the structure was uncertain. 
 
 ## Repository contents
 

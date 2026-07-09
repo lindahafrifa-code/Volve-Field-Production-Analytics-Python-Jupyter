@@ -172,7 +172,9 @@ Built with Python and Excel.
 ---
 ## Why Volve?
 
-Volve dataset has tens of thousands of files. The dataset is used for 4 main reasons: 
+Volve dataset comprises approximately 40,000 files from the Volve field, which was in production from 2008 to 2016 (Equinor volve-data-sharing page).
+
+The dataset is used for 4 main reasons: 
 1. **It is real**: Real allocated production data, with real problems: NULL text in numeric columns, wells that changed role mid-life, missing sensor readings. This means cleaning it requires applying my professional skills.
 2. **It is verifiable**: The Volve's field history is publicly documented.
 My figures reconcile with the published field history: the 10 million Sm³ across all wells is about 63 million barrels, and the peak rates calculated for the two main producers add to roughly 9,000 Sm³/day, which matches the field's reported peak. Hence results from the repo can be reconciled against the official records (NPD Factpages).

@@ -41,8 +41,8 @@ If a field is running out of energy, pressure drops and gas starts bubbling out 
 Gas stayed steady for 8 years, and pressure in the best-monitored well actually went **up** by 38 bar between 2012 and shutdown.
 
 **One well was still at full power when it drowned.** 
-F-14 H had its valve wide open for the last four years of its life. No operationl hold back. It was pushing as hard as it could, and it was still mostly water.
-That is what a field looks like when it dies of water rather than weakness in .
+F-14 H had its valve wide open for the last four years of its life. No operational hold back. It was pushing as hard as it could, and it was still mostly water.
+That is what a field looks like when it dies of water rather than weakness.
 
 ![Water cut over time](images/watercut-over-time-by-producer.png)
 
@@ -101,7 +101,7 @@ findings written out in plain language.
 
 ## Where I checked my own work
 
-Half of this project was apply my knowlegde to ensure the charts were honest and sound. Examples stated below.
+Half of this project was applying my knowlegde to ensure the charts were honest and sound. Examples stated below.
 
 **Blanks that were not blanks.** 
 The injection wells had "NULL" written in the oil column. That does not mean the number is missing. It means those wells do not produce oil at all. 
@@ -129,7 +129,7 @@ Which cannot happen. One of them, left in, would have shifted a month's average 
 ## What I would do next
 This repo is a staged build. Remaining stages:
 
-**Write it in SQL** (in progress)*: The same sums, pulled straight from a database instead of a spreadsheet. That is how this work happens in a real company.
+**Write it in SQL** *(in progress)*: The same sums, pulled straight from a database instead of a spreadsheet. That is how this work happens in a real company.
 
 **Check the water balance** (VRR):  I have shown that pressure held. The next step is to check whether the amount of water pumped in actually matched the amount of oil taken out. 
 That needs some lab data this file does not have, so it would be an estimate.
@@ -172,12 +172,12 @@ Built with Python and Excel.
 ---
 ## Why Volve?
 
-Volve dataset has roughly 40,000 files. The dataset is used for 4 main reasons: 
-1. **It is real.** Real allocated production data, with real problems: NULL text in numeric columns, wells that changed role mid-life, missing sensor readings. This means cleaning it requires applying my professional skills.
-2. **It is verifiable.** The Volve's field history is publicly documented with peak production of ~56,000 bbl/d (≈9,000 Sm³/d), 63 million barrels recovered, a 54% recovery rate.
-Hence results from the repo can be reconciled against the official NPD records.
-3. **It is a known field.** NCS operators know this field. Meaning the analysis can be judged on its merits by people who know the right answers.
-4. **Its good for beyond the charts**. As a geoscientist, I wanted to apply my knowlege beyond creating charts and demonstrate how production data can be explored to understand well performance, identify production trends, and support operational decision-making.
+Volve dataset has tens of thousands of files. The dataset is used for 4 main reasons: 
+1. **It is real**: Real allocated production data, with real problems: NULL text in numeric columns, wells that changed role mid-life, missing sensor readings. This means cleaning it requires applying my professional skills.
+2. **It is verifiable**: The Volve's field history is publicly documented.
+My figures reconcile with the published field history: the 10 million Sm³ across all wells is about 63 million barrels, and the peak rates calculated for the two main producers add to roughly 9,000 Sm³/day, which matches the field's reported peak. Hence results from the repo can be reconciled against the official records.
+3. **It is a known field**: NCS operators know this field. Meaning the analysis can be judged on its merits by people who know the right answers.
+4. **It's good for going beyond**: As a geoscientist, I wanted to apply my knowlege beyond creating charts and demonstrate how production data can be explored to understand well performance, identify production trends, and support operational decision-making.
 To reflect the type of analysis done by multidisciplinary teams working across subsurface, production and data analytics.
 
 ------
@@ -186,7 +186,7 @@ To reflect the type of analysis done by multidisciplinary teams working across s
 
 Equinor's Volve open dataset, licensed CC BY-NC-SA 4.0. 
 Data belongs to © Equinor, ExxonMobil E&P Norway, Bayerngas Norge, and the Norwegian Petroleum Directorate.
-Downloaded from databricks and Used here to learn ONLY.
+Downloaded from Databricks and Used here to learn ONLY.
 
 ---
 
@@ -197,7 +197,7 @@ NumPy
 Matplotlib
 Jupyter Notebook
 Excel
-Sql (ongoing)
+SQL (ongoing)
 Power BI (ongoing)
 
 ------

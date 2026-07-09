@@ -16,7 +16,8 @@ The dataset is used for 3 main reasons:
 2. **It is verifiable.** The Volve's field history is publicly documented with peak production of ~56,000 bbl/d (≈9,000 Sm³/d), 63 million barrels recovered, a 54% recovery rate. Hence results from the repo can be reconciled against the official NPD records.
 3. **It is a known field.** NCS operators know this field. Meaning the analysis can be judged on its merits by people who know the right answers.
 This project combines data analysis with subsurface understanding to turn production data into practical insights.
-
+4. **Its good for beyond the charts**. As a geoscientist, I wanted to applu my knowlege beyond creating charts and demonstrate how production data
+can be explored to understand well performance, identify production trends, and support operational decision-making. To reflect the type of analysis done by multidisciplinary teams working across subsurface, production and data analytics.
 
 ## What is analysed
 **Production performance** 
